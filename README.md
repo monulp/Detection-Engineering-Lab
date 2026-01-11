@@ -1,4 +1,4 @@
-# Detection Engineering Lab: Telemetry → Detections → Investigations
+# Detection Engineering Lab: Telemetry → Detections → Investigations    Status: (ongoing)
 
 ## 1. Objective
 
