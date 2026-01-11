@@ -7,7 +7,7 @@ support SPL-based detection engineering and alert development.
 
 ## SIEM Platform
 - Product: Splunk Enterprise
-- OS: Ubuntu Server 24.04 LTS
+- OS: Ubuntu Server 22.04 LTS
 - Deployment Type: Single-instance (Search Head + Indexer)
 
 ## Virtual Machine Specifications
