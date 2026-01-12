@@ -37,3 +37,9 @@ This endpoint is used to generate:
 - PowerShell execution events
 
 Telemetry is forwarded to Splunk using the Splunk Universal Forwarder.
+
+## Build Status
+- Windows 10 Pro installed
+- Host-only networking confirmed
+- Baseline snapshot created
+
