@@ -43,3 +43,7 @@ Telemetry is forwarded to Splunk using the Splunk Universal Forwarder.
 - Host-only networking confirmed
 - Baseline snapshot created
 
+## Validation
+Confirmed effective auditing using `auditpol` and validated Event ID 4688
+with full command-line context via controlled process execution.
+
