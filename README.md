@@ -117,3 +117,11 @@ By progressing from raw telemetry to refined detections and documented investiga
 - Incident analysis
 
 - Security documentation
+
+## Audit Policy Persistence
+Observed Process Creation auditing reverting after reboot due to legacy
+audit policy overriding Advanced Audit Policy.
+
+Resolved by enforcing Advanced Audit Policy precedence via Group Policy
+and validating persistence across reboots.
+
