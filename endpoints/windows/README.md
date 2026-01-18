@@ -47,3 +47,8 @@ Telemetry is forwarded to Splunk using the Splunk Universal Forwarder.
 Confirmed effective auditing using `auditpol` and validated Event ID 4688
 with full command-line context via controlled process execution.
 
+## Index Management
+Created a dedicated `windows_security` index prior to ingestion.
+Observed that Splunk drops events when a target index does not exist,
+highlighting the importance of index lifecycle management.
+
