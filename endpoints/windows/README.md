@@ -52,3 +52,9 @@ Created a dedicated `windows_security` index prior to ingestion.
 Observed that Splunk drops events when a target index does not exist,
 highlighting the importance of index lifecycle management.
 
+## Process Creation Auditing
+Observed that Event ID 4688 was missing due to Process Creation auditing
+being disabled at the audit engine level.
+
+Enforced auditing using `auditpol` and validated both locally and in Splunk.
+
