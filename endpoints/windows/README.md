@@ -58,3 +58,11 @@ being disabled at the audit engine level.
 
 Enforced auditing using `auditpol` and validated both locally and in Splunk.
 
+## Audit Policy Persistence
+Observed Process Creation auditing reverting after reboot due to legacy
+audit policy overriding Advanced Audit Policy.
+
+Resolved by enforcing Advanced Audit Policy precedence via Group Policy
+and validating persistence across reboots.
+
+
