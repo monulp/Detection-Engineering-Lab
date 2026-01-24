@@ -128,10 +128,3 @@ No containment actions were required.
 
 ---
 
-## Interview Summary
-This incident demonstrates the ability to:
-- Build and operate a SIEM
-- Write behavior-based detections
-- Investigate alerts using process and authentication telemetry
-- Correctly identify and document false positives
-- Communicate findings clearly to both technical and non-technical stakeholders
